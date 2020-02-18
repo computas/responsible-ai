@@ -1,0 +1,11 @@
+name: fooling_limeshap
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+ - python=3.7
+ - jupyterlab
+ - shap=0.34.0
+ - ipywidgets
+ - pip
+
