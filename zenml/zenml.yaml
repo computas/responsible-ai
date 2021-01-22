@@ -1,0 +1,16 @@
+name: zenml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+ - python=3.8
+ - jupyterlab
+ - ipywidgets
+ - black # code formatting
+ - nb_black # code formatting jupyter lab
+ - watermark # watermarking notebooksi
+ - tensorflow_model_analysis
+ - pip
+ - pip:
+    - zenml
+
